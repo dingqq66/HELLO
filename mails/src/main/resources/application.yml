@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+  mail:
+    host: smtp.163.com
+    username: ding65535@163.com
+    password: wangyi123456
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
